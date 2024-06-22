@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hybrid</string>
+    <string name="tv_title">Hello World</string>
+    <string name="btn1">测试按钮</string>
+</resources>

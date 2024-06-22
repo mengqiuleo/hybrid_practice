@@ -1,0 +1,21 @@
+.input_file {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.label_file {
+  cursor: pointer;
+  padding: 7px 15px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  &:hover,
+  &:focus,
+  &:active {
+    color: #40a9ff;
+    border-color: #40a9ff;
+  }
+}
