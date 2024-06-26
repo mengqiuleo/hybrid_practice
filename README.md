@@ -1077,7 +1077,7 @@ settings.setJavaScriptEnabled(true);
 ```
 
 #### 使用建议
-![Snipaste_2024-05-30_19-18-29.jpg](E:\android_study\temp\assets\使用建议.jpg)
+<img src="/assets/使用建议.jpg" alt="Snipaste_2024-05-30_19-18-29.jpg" style="zoom: 67%;" />
 
 
 ## 前端H5的缓存模式
@@ -1618,10 +1618,12 @@ plugin实现思路：主要是监听 vite 插件的 closeBundle 钩子（即在�
 
 
 
-[https://www.npmjs.com/package/bsdiff-nodejs?activeTab=readme](https://www.npmjs.com/package/bsdiff-nodejs?activeTab=readme)
-[https://github.com/gaetandezeiraud/bsdiff-node/issues/7](https://github.com/gaetandezeiraud/bsdiff-node/issues/7)
+- [https://www.npmjs.com/package/bsdiff-nodejs?activeTab=readme](https://www.npmjs.com/package/bsdiff-nodejs?activeTab=readme)
+- [https://github.com/gaetandezeiraud/bsdiff-node/issues/7](https://github.com/gaetandezeiraud/bsdiff-node/issues/7)
 
-安装
+
+
+**安装**
 [https://segmentfault.com/a/1190000023271417](https://segmentfault.com/a/1190000023271417)
 
 ```swift
@@ -1631,11 +1633,23 @@ npm config set python "D:\Python27\python.exe"
 npm config set node_gyp "D:\nodejs\node_modules\node-gyp\bin\node-gyp.js"
 ```
 
-bsdiff-node: [https://www.npmjs.com/package/bsdiff-node?activeTab=readme](https://www.npmjs.com/package/bsdiff-node?activeTab=readme)👍🏻
-bsdiff-nodejs: [https://www.npmjs.com/package/bsdiff-nodejs?activeTab=readme](https://www.npmjs.com/package/bsdiff-nodejs?activeTab=readme)
+
+
+- bsdiff-node: [https://www.npmjs.com/package/bsdiff-node?activeTab=readme](https://www.npmjs.com/package/bsdiff-node?activeTab=readme)👍🏻
+
+- bsdiff-nodejs: [https://www.npmjs.com/package/bsdiff-nodejs?activeTab=readme](https://www.npmjs.com/package/bsdiff-nodejs?activeTab=readme)
+
+  
+
+  
+
 现在有两种：bsdiff-node 和 bsdiff-nodejs
-原项目中用的是bsdiff-nodejs，要求 pathon2.7.15，我安装不上
-改成了 bsdiff-node，要求 python3.x
+
+- 原项目中用的是bsdiff-nodejs，要求 pathon2.7.15，我安装不上
+
+- 改成了 bsdiff-node，要求 python3.x
+
+  
 
 
 **使用**
