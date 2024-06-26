@@ -6,8 +6,8 @@ package com.example.webpackagekit.webpackagekit.core;
 public class Constants {
    public static String[] LOCAL_ASSET_LIST = {"main.zip"};
 
-   // 服务器地址
-   public static final String BASE_URL = "http://127.0.0.1:3000";
+   // 服务器地址（注意使用局域网IP）
+   public static final String BASE_URL = "http://192.168.1.7:3000";
 
     // package.json请求地址
     public static final String BASE_PACKAGE_INDEX = BASE_URL + "/getPackageIndex?appName=main";

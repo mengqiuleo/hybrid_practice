@@ -8,13 +8,15 @@ export default defineConfig({
     react(),
     OfflinePackagePlugin({
       packageNameKey: 'packageId',
-      packageNameValue: 'meeting',
-      version: 1,
+      packageNameValue: 'package', // package名
+      version: 2, // 需要每次手动更新
       baseUrl: 'http://192.168.1.7:3000/',
-      fileTypes: ['html', 'js', 'css', 'png']
+      fileTypes: ['html', 'js', 'css', 'png'],
+      folderName: 'main' // 打包后的 ZIP 名称
     })
   ],
   server: {
-    host: '0.0.0.0'
+    host: '0.0.0.0',
+    port: 8991
   }
 })

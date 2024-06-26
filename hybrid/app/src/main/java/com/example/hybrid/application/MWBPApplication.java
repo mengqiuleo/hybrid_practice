@@ -55,6 +55,7 @@ public class MWBPApplication extends Application {
                         EventBus.getDefault().post(data);
                     }
                 } catch (IOException e) {
+                    Log.w("getPackageIndex", "请求最新的 packageIndex 文件 出错");
                     e.printStackTrace();
                 }
             }

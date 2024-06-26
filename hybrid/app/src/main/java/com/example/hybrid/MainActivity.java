@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
         // part3: 测试离线包
 //        wv.loadUrl("https://mcuking.github.io/mobile-web-best-practice/");
 //        wv.loadUrl("http://127.0.0.1:5174");
-        wv.loadUrl("http://192.168.1.7:5174");
+        wv.loadUrl("http://192.168.1.7:8991");
         // 这里需要使用本机的IP地址，而不是 localhost (命令：ipconfig), 且要解决安卓不允许使用 http ，而是https
     }
 

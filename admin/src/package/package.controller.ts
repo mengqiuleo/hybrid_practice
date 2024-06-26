@@ -127,6 +127,8 @@ export class PackageController {
 
 /**
  * 获取最新版本离线包集合的json
+ * 这里的 module_name 对应的是 client 中的 package_name
+ * vite 插件打印出来的 index.json 中，去 vite-plugin 那个文件夹下看
 {
   "data": [
     {

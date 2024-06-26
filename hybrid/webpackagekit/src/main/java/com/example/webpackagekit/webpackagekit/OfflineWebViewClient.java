@@ -14,6 +14,7 @@ public class OfflineWebViewClient extends WebViewClient {
     // 通过对 WebviewClient 类的 shouldInterceptRequest 方法的复写来拦截 http 请求，并从本地查找是否有相应的前端静态资源，如果有则直接返回
     public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
         final String url = request.getUrl().toString();
+        Log.d("shouldInterceptRequest", "拦截 http 请求" + url);
         WebResourceResponse resourceResponse = getWebResourceResponse(url);
         if (resourceResponse == null) {
             // request fpackagerom remote , https://mcuking.github.io/mobile-web-best-practice/lib/moment/2.24.0/moment.min.js

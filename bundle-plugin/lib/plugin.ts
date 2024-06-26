@@ -10,9 +10,9 @@ export const OfflinePackagePlugin = function (options) {
     // packageNameValue: 'meeting',
     // index.json:   "packageId": "meeting"
     packageNameKey: 'packageName',
-    packageNameValue: 'meeting',
+    packageNameValue: 'main',
     version: 1,
-    folderName: 'package', // 打包后的 zip 名称
+    folderName: 'main', // 打包后的 zip 名称
     indexFileName: 'index.json', // 版本的 json文件名称
     baseUrl: '',
     fileTypes: [], // ['html', 'js', 'css', 'png']
